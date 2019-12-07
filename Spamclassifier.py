@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-messages = pd.read_csv('smsspamcollection/SMSSpamCollection', sep='\t',
+messages = pd.read_csv('SMSSpamCollection', sep='\t',
                            names=["label", "message"])
 
 #Data cleaning and preprocessing
